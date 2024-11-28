@@ -8,7 +8,7 @@ def generate_maze(width, height):
     # Initialize the grid with walls
     grid = [['wall' for i in range(width)] for i in range(height)] 
 
-
+    #makes paths inside the maze
     def carve_path(row, col):
    
         grid[row][col] = 'path'  # Mark the current cell as a path
